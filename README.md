@@ -1,2 +1,2 @@
-# coffee-data-dashboard
-An interactive excel dashboard that shows trends and information about countries that produce coffee and countries that consume it.
+# Coffee Production and Trade data
+An interactive dashboard created in Excel that shows trends and information about countries that produce, export, and import coffee.
