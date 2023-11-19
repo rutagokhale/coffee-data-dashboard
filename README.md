@@ -68,4 +68,7 @@ I re-used the `Country` selector from the previous chart. Based on the selection
 ---
 
 ### Limitations and further improvements
+- Amongst the four datasets, there were 2 different kinds of time series. So it wasn't possible to combine data from all the datasets.
+- To improve this analysis further, I would start with developing a "guided" visualization, where one can get answers to more specific questions.
+
 
