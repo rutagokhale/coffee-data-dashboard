@@ -18,6 +18,8 @@ Hence, I start with the **Top 5** countries for each of the trade activities. Th
 Here, I explain the data preparation process and the specific formula to create a chart or component.
 
 ##### 1. Charts showing the top 5 countries producing, exporting, and importing coffee.
+![image](https://github.com/rutagokhale/coffee-data-dashboard/assets/33475585/15708ab4-e183-4fc1-91c8-c675997b04e6)
+
 I created 3 `Pivot Tables`
 | Country | Total Production |
 | --- | --- |
@@ -31,6 +33,8 @@ I created 3 `Pivot Tables`
 and filtered the results in `descending` order of the `total` and chose the `top 5` results for each table. I used the filtered data to create a `horizontal bar chart`.
 
 ##### 2. A dynamic chart that shows the top 5 countries for the selected coffee type.
+![image](https://github.com/rutagokhale/coffee-data-dashboard/assets/33475585/b18609dc-c183-4aae-a8f4-100404cb9afa)
+
 First, I created a `Pivot Table`
 | Coffee Type | Country | Total Production |
 | --- | --- | --- |
@@ -39,6 +43,8 @@ and filtered the results in `descending` order of the `total` and chose the `top
 Next, I added a `Data Validation` selector for choosing a `coffee type`. Based on the selection, I used a `FILTER` formula to display the top 5 countries for the selected coffee type from the table. I used this data to create a `bar chart`.
 
 ##### 3. A dynamic chart that shows the trend of coffee imports for the selected country between the years 2019 to 2020.
+![image](https://github.com/rutagokhale/coffee-data-dashboard/assets/33475585/35b35c0f-ac4e-4c9d-8557-36006a8950fe)
+
 First, I created a `Pivot Table`
 | Country | 1990 --- 2019 |
 | --- | --- |
@@ -46,6 +52,8 @@ First, I created a `Pivot Table`
 Next, I added a `Data Validation` selector for choosing a `Country`. Based on the selection, I used a `FILTER` formula to display the coffee import quantity for each year from 1990 to 2019. I used this data to create a `line chart` that shows the import trend for the selected country.
 
 ##### 4. A dynamic chart that shows coffee production vs domestic consumption of the selected country.
+![image](https://github.com/rutagokhale/coffee-data-dashboard/assets/33475585/a23ecb72-8834-486c-9c9b-19a6ba2a3174)
+
 I created a table
 | Country | Total Production | Total Domestic Consumption |
 | --- | --- | --- |
@@ -53,6 +61,8 @@ I created a table
 using `INDEX` and `MATCH` formulae. I added a `Data Validation` selector for choosing a `Country`. Based on this selection, I used a `FILTER` formula to display the production and domestic consumption for the selected country. I used this data to create a `pie chart` to show coffee production vs. domestic consumption quantities.
 
 ##### 5. A dynamic chart that shows the trend of coffee exports for the selected country between the years 2019 to 2020.
+![image](https://github.com/rutagokhale/coffee-data-dashboard/assets/33475585/b498792d-13a5-4fc1-aef7-8b4d5a1f4a6d)
+
 I re-used the `Country` selector from the previous chart. Based on the selection, I used a `FILTER` formula to display the coffee export quantity for each year from 1990 to 2019. I used this data to create a `line chart` that shows the export trend for the selected country.
 
 ---
